@@ -120,6 +120,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Qcom
 #
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.qctwa.statusbar=1 \
+    debug.qctwa.preservebuf=1 \
+    debug.qc.hardware=true \
+    com.qc.hardware=true
+
 # Init post-boot script
 PRODUCT_COPY_FILES += \
     device/htc/qsd8k-common/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh
