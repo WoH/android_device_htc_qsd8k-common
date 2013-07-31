@@ -75,7 +75,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.hw=1 \
     debug.hwc.fakevsync=1 \
-    debug.composition.type=gpu \
+    debug.composition.type=mdp \
     debug.gr.numframebuffers=2
 
 #
