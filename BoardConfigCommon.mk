@@ -36,6 +36,9 @@ TARGET_CPU_VARIANT := cortex-a8
 # Scorpion
 TARGET_USE_SCORPION_BIONIC_OPTIMIZATION := true
 
+# O3
+TARGET_USE_O3 := true
+
 # Wifi
 WIFI_BAND                        := 802_11_ABG
 WPA_SUPPLICANT_VERSION           := VER_0_8_X
