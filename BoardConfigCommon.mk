@@ -96,6 +96,7 @@ ENABLE_WEBGL := true
 # Camcorder
 BOARD_USE_OLD_AVC_ENCODER := true
 BOARD_NO_BFRAMES := true
+BOARD_USES_QCOM_LEGACY_CAM_PARAMS := true
 
 # Kernel directory
 TARGET_KERNEL_SOURCE := kernel/htc/qsd8k
