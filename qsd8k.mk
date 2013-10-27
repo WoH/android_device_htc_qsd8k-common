@@ -76,6 +76,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.hw=1 \
     debug.composition.type=mdp \
     ro.bq.gpu_to_cpu_unsupported=1 \
+    ro.sys.force_full_hwa=1 \
     debug.gr.numframebuffers=2
 
 #
